@@ -17,5 +17,5 @@ mongoose.connect(MONGO_URL)
     .catch(err => console.error("Error en Mongo:", err));
 
 app.listen(PUERTO, () => {
-    console.log(`🚀 Servidor funcionando en el puerto ${PUERTO}`);
+    console.log(`Servidor funcionando en el puerto ${PUERTO}`);
 });
